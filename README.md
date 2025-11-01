@@ -17,7 +17,7 @@ It operates in two main phases:
 
 **Healing (Meshification) Phase**: It analyzes the block-cut tree (BCT) structure to find all "leaf blocks" (blocks connected to the network by only one cut vertex). It then adds a mathematically minimal set of $\lceil k/2 \rceil$ redundant edges to connect pairs of these leaf blocks, "stitching" the graph together.
 
-This process eliminates all single points of failure, ensuring that the failure or compromise of any single node cannot disconnect the network.
+This process eliminates most single points of failure, ensuring that the failure or compromise of any single node cannot disconnect the network.
 
 ## 3. Features
 
@@ -148,6 +148,11 @@ dodag_final.png: Shows the final, hardened graph. New redundant edges are colore
 
 ![topology_after](https://github.com/user-attachments/assets/de436d33-8073-490e-ad62-bcac9ae14fd5)
 
+Scalability of Algorithm was checked by running the algorithm with multiple nodes - 250 nodes, 500 nodes, 750 nodes and 1000 nodes.
+
+![scalability](https://github.com/user-attachments/assets/0c329441-8446-4197-a169-caf72968c280)
+
+Graph visualization showing Network Size vs Total Time taken by the algorithm. 
 
 ## 7. Authors
 
