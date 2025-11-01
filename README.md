@@ -47,11 +47,11 @@ This process eliminates all single points of failure, ensuring that the failure 
 
 Prerequisites
 
-Contiki-NG: You must have the Contiki-NG source code cloned on your system, as this project is built using its libraries and build system.
+**Contiki-NG**: You must have the Contiki-NG source code cloned on your system, as this project is built using its libraries and build system.
 
-C Compiler: A C compiler like gcc (comes with build-essential on Linux).
+**C Compiler**: A C compiler like gcc (comes with build-essential on Linux).
 
-Graphviz: The sfdp tool is required for generating the .png visualizations.
+**Graphviz**: The sfdp tool is required for generating the .png visualizations.
 
 ## 5. Expected Output
 
@@ -127,7 +127,7 @@ Then, it will print the final statistics report:
 ║ • dodag_final.dot (Meshified topology)                     ║\
 ║ • dodag_old.png   (Original visualization)                 ║\
 ║ • dodag_final.png (Meshified visualization)                ║\
-╚════════════════════════════════════════════════════════════╝\
+╚════════════════════════════════════════════════════════════╝
 
 
 ## 6. Visualization
